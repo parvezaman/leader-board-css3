@@ -23,7 +23,7 @@
         <!-- top players and top blogs -->
         <section class="container">
             <div class="top-players">
-                <h2 class="section-title">Top Players</h2>
+                <h2 id="top-player-title" class="section-title">Top Players</h2>
                 <div class="players">
                     <!-- .players*6>img[src="images/players/player-$.png"]+h3{Top player-$} -->
                     <div class="player">
@@ -172,7 +172,31 @@
             </div>
         </section>
 
+        <section class="container">
+            <h1 class="section-title">UL section</h1>
+            <ul id="parent-ul">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <button id="add-li-button" class="li-button"> add li</button>
+            <textarea name="" id="ul-text-input" cols="30" rows="10"></textarea>
+            <button id="post-li" class="li-button">post</button>
+        </section>
+
+        <section class="container">
+            <h2 class="section-title">increase value in an input field upto 5</h2>
+
+            <div class="value-up-container">
+                <input id="value-up-input" type="text">
+                <button id="value-up-button" class="li-button">Value Up</button>
+            </div>
+        </section>
+
     </main>
+
+
+    <script src="./script.js"></script>
     
 </body>
 </html>
